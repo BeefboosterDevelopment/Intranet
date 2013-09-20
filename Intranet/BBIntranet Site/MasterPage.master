@@ -1,0 +1,23 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="masterpage" runat="server">
+    <title>Beefbooster Intranet Site</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <hr style="height: 12px; background-color: maroon" />
+        <asp:LinkButton ID="lbhome" runat="server" PostBackUrl="~/Default.aspx">Home</asp:LinkButton>
+        <br />
+        <hr style="height: 12px; background-color: maroon" />
+    </div>
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beefbooster.DataAccessLibrary", "..\Beefbooster.DataAccessLibrary\Beefbooster.DataAccessLibrary.csproj", "{244EDC7D-E69C-42B5-8886-98C052381F3C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BBIntranet Site", "..\BBIntranet Site\", "{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{244EDC7D-E69C-42B5-8886-98C052381F3C}|Beefbooster.DataAccessLibrary.dll;{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}|Beefbooster.ASReml.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BBIntranet Site"
+		Debug.AspNetCompiler.PhysicalPath = "..\BBIntranet Site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BBIntranet Site\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BBIntranet Site"
+		Release.AspNetCompiler.PhysicalPath = "..\BBIntranet Site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BBIntranet Site\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2562"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBIntranetSite.UnitTests", "..\BBIntranetSite.UnitTests\BBIntranetSite.UnitTests.csproj", "{08097F40-0A63-4177-ADCE-14B85501D281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ABE1186-CDD0-4992-9598-206AB4E326FD}"
+	ProjectSection(SolutionItems) = preProject
+		Beefbooster Intranet Site.vsmdi = Beefbooster Intranet Site.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beefbooster.ASReml", "..\Beefbooster.ASReml\Beefbooster.ASReml.csproj", "{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Beefbooster Intranet Site.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|.NET.Build.0 = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{244EDC7D-E69C-42B5-8886-98C052381F3C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E4F59374-D541-4CFC-85F6-5B7880C1B3E6}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Release|.NET.ActiveCfg = Release|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{08097F40-0A63-4177-ADCE-14B85501D281}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8D3ED882-CF9D-486C-A4F8-86B76580FAC2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
