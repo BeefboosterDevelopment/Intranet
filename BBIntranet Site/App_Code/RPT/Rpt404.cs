@@ -46,6 +46,7 @@ public class Rpt404_DataItem
     public decimal MW_EBV { get; set; }
     public decimal RFI_EBV { get; set; }
     public decimal H18M_EBV { get; set; }
+    public decimal SEL_IDX { get; set; }
 
     public decimal BW_EBV_REL { get; set; }
     public decimal WWD_EBV_REL { get; set; }
@@ -177,6 +178,8 @@ public class Rpt404_DataObject
             int ordRFI_EBV_REL = rdr.GetOrdinal("RFI_EBV_REL");
             int ordH18M_EBV_REL = rdr.GetOrdinal("H18M_EBV_REL");
 
+            int ordSEL_IDX = rdr.GetOrdinal("SEL_IDX");
+
             int ordSelGrp = rdr.GetOrdinal("SelGrp");
             int ordPriceCDN = rdr.GetOrdinal("SG_CDN");
             int ordPriceUSD = rdr.GetOrdinal("SG_USD");
@@ -217,6 +220,8 @@ public class Rpt404_DataObject
                 di.MW_EBV = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordMW_EBV), typeof(decimal), Constants.InitializeDecimal));
                 di.RFI_EBV = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordRFI_EBV), typeof(decimal), Constants.InitializeDecimal));
                 di.H18M_EBV = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordH18M_EBV), typeof(decimal), Constants.InitializeDecimal));
+
+                di.SEL_IDX = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordSEL_IDX), typeof(decimal), Constants.InitializeDecimal));
 
                 di.BW_EBV_REL = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordBW_EBV_REL), typeof(decimal), Constants.InitializeDecimal));
                 di.WWD_EBV_REL = ((decimal)ParameterUtils.SafeGetValue(rdr.GetValue(ordWWD_EBV_REL), typeof(decimal), Constants.InitializeDecimal));
