@@ -3650,7 +3650,6 @@
                               <Value>=Round(Fields!SEL_IDX.Value,1)</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
-                                <Color>=Switch(Fields!RFI_EBV_REL.Value &gt;= Parameters!rpHighReliability.Value, "DarkGreen", Fields!RFI_EBV_REL.Value &gt;= Parameters!rpMedReliability.Value, "Black", Fields!RFI_EBV_REL.Value &lt; Parameters!rpMedReliability.Value, "Red")</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
