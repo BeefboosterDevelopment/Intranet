@@ -3,7 +3,20 @@
         <tr>
             <td colspan="2">
                         <span style="font-weight: bold; font-family: Arial;">ASReml Exporter</span> - <span style="font-size: 0.8em; font-style: italic;"> Exports data from Beefboosters database
-                    for submission to ASReml</span></td>
+                    for submission to UofA</span></td>
+        </tr>
+        <tr>
+            <td>Strain</td>
+            <td>
+                <asp:DropDownList ID="ddlStrainCode" runat="server">
+                    <asp:ListItem Selected="True" >All</asp:ListItem>
+                    <asp:ListItem>M1</asp:ListItem>
+                    <asp:ListItem>M2</asp:ListItem>
+                    <asp:ListItem>M3</asp:ListItem>
+                    <asp:ListItem>M4</asp:ListItem>
+                    <asp:ListItem>TX</asp:ListItem>
+                </asp:DropDownList>
+            </td>
         </tr>
         <tr>
             <td>

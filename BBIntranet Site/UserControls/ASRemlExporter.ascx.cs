@@ -29,10 +29,10 @@ public partial class ASRemlGeneratorControl : System.Web.UI.UserControl
         var bullConnectionString = ConfigurationManager.ConnectionStrings["BullConnectionString"].ConnectionString;
         var cowCalfConnectionString = ConfigurationManager.ConnectionStrings["CowCalfConnectionString"].ConnectionString;
 
+        var exporter = new ASREMLExport(rootFolder, cowCalfConnectionString, bullConnectionString);
 
-        var exporter = new ASREMLExport(rootFolder,cowCalfConnectionString,bullConnectionString);       
-
-        var zipFileName = exporter.CreateZip();
+        var strain = ddlStrainCode.SelectedValue;
+        var zipFileName = exporter.CreateZip(strain);
 
         if (zipFileName != null)
         {
@@ -67,6 +67,7 @@ public partial class ASRemlGeneratorControl : System.Web.UI.UserControl
     {
         hdnZipFilePath.Value = null;
         lblZipFileName.Text = string.Empty;
+        ddlStrainCode.SelectedValue = "All";
         btnDownload.Enabled = false;
     }
 }
